@@ -666,6 +666,17 @@ footer .copyright {
     margin-bottom: 0.3rem;
 }
 
+.top {
+    right: 50px;
+    bottom: 50px;
+    border: 2px solid #1b1b1b;
+    color: #1b1b1b;
+    border-radius: 10px;
+    padding: 10px 15px;
+    z-index: 200;
+    display: none;
+}
+
 @keyframes slideLeft {
   0% {
     transform: translateX(100px);
